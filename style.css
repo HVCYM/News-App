@@ -5,7 +5,7 @@
 
 .news{
    font-family: Georgia, "Times New Roman", Times, serif;
-   font-size: xx-large;
+   font-size: 1.5rem;
    font-weight: bolder;
    text-align: center;
    background-color: rgb(230, 230, 230);
@@ -35,7 +35,7 @@
 
 /* News */
 .news-index{
-   font-size: x-large;
+   font-size: 1rem;
    font-weight: bolder;
    text-decoration: underline;
    margin-top: 1rem;
@@ -44,7 +44,7 @@
 
 .news-title{
    font-weight: bolder;
-   font-size: x-large;
+   font-size: 1rem;
    max-width: 50rem;
 }
 
