@@ -1,0 +1,73 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.news{
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: xx-large;
+   font-weight: bolder;
+   text-align: center;
+   background-color: rgb(230, 230, 230);
+   padding: 1rem;
+   margin: 1rem;
+}
+
+
+.news-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.news-item {
+   margin: 1rem;
+   padding: 0.5rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.news-image {
+   width: 100%;
+
+}
+
+/* News */
+.news-index{
+   font-size: x-large;
+   font-weight: bolder;
+   text-decoration: underline;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.news-title{
+   font-weight: bolder;
+   font-size: x-large;
+   max-width: 50rem;
+}
+
+.news-source{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.news-image{
+   margin: auto;
+   width: 50rem;
+   height: fit-content;
+}
+
+.news-subcontainer{
+   margin: auto;
+}
+
+.news-desc{
+   padding: 1rem;
+   width: 50rem;
+}
+
+.read-more{
+   padding: 1rem;
+}
