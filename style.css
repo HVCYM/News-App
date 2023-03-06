@@ -3,14 +3,20 @@
    padding: 0;
 }
 
+.news-head{
+   display: flex;
+   flex: 1;
+}
+
 .news{
    font-family: Georgia, "Times New Roman", Times, serif;
    font-size: 1.5rem;
+   justify-content: center;
    font-weight: bolder;
    text-align: center;
    background-color: rgb(230, 230, 230);
    padding: 1rem;
-   margin: 1rem;
+   min-width: 100vw;
 }
 
 
@@ -70,4 +76,14 @@
 
 .read-more{
    padding: 1rem;
+}
+
+@media only screen and (max-width: 500px){
+   .mobile{
+      font-size: 2.5rem;
+      background-color: red;
+   }
+   .news-image{
+      width: 100%;
+   }
 }

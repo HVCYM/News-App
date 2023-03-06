@@ -190,12 +190,12 @@ data.forEach((item, idx)=>{
    itemDiv.innerHTML = `
    <div class="news-item" key=${idx}>
       <div class = "news-subcontainer">
-         <p class = "news-index">News : ${idx + 1}</p>
-         <p class = "news-title">${item.title}</p>
-         <p class = "news-source">Source: ${item.source.name}</p>
-         <img class="news-image" src=${item.urlToImage} alt = "${item.content}" />
-         <p class = "news-desc">${item.description} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam asperiores, quos magnam quaerat laborum odio optio saepe delectus quae adipisci explicabo eveniet consequuntur aut, laboriosam perspiciatis voluptatem nihil incidunt neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum. Assumenda vero, at quia repudiandae porro obcaecati amet fugiat, facere magni dolorem sit ratione repellat impedit molestias quasi delectus repellendus?</p>
-         <a href=${item.url} target="_blank"><p class = "read-more">Read more</p></a>
+         <p class = "mobile news-index">News : ${idx + 1}</p>
+         <p class = "mobile news-title">${item.title}</p>
+         <p class = "mobile news-source">Source: ${item.source.name}</p>
+         <img class="mobile news-image" src=${item.urlToImage} alt = "${item.content}" />
+         <p class = "mobile news-desc">${item.description} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam asperiores, quos magnam quaerat laborum odio optio saepe delectus quae adipisci explicabo eveniet consequuntur aut, laboriosam perspiciatis voluptatem nihil incidunt neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum. Assumenda vero, at quia repudiandae porro obcaecati amet fugiat, facere magni dolorem sit ratione repellat impedit molestias quasi delectus repellendus?</p>
+         <a href=${item.url} target="_blank"><p class = "mobile read-more">Read more</p></a>
       </div>
    </div>`;
    newsContainer.append(itemDiv)
